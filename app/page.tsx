@@ -101,7 +101,7 @@ function MagneticSocialLink({
       <a
         href={link}
         className="group relative inline-flex shrink-0 items-center gap-[1px] rounded-full bg-zinc-100 px-2.5 py-1 text-sm text-black transition-colors duration-200 hover:bg-zinc-950 hover:text-zinc-50 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
-        target='_blank'
+        target="_blank"
       >
         {children}
         <svg
@@ -138,12 +138,12 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-          Hey, I'm Aashay. I'm currently crafting beautiful user experiences and user interfaces for generative AI products. I can also code in Next.js, Tailwind, and Framer Motion with v0 to bring my designs to life. In my free time, I love experimenting with TouchDesigner and creative coding to create generative art. I'm also available for remote internships and freelance projects.
+          Hey, I'm Aashay. I'm currently crafting beautiful user experiences and user interfaces for generative AI products. I use Figma, Rive and Code to craft beautiful things. I can also code in Next.js, Tailwind, and Framer Motion with v0 to bring my designs to life. In my free time, I love experimenting with TouchDesigner and creative coding to create generative art. I'm also available for remote internships and freelance projects.
           </p>
         </div>
       </motion.section>
 
-       <motion.section
+      <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -170,7 +170,7 @@ export default function Personal() {
             </div>
           ))}
         </div>
-      </motion.section> 
+      </motion.section>
 
       <motion.section
         variants={VARIANTS_SECTION}
@@ -231,7 +231,7 @@ export default function Personal() {
                 className="-mx-3 rounded-xl px-3 py-3"
                 href={post.link}
                 data-id={post.uid}
-                target='_blank'
+                target="_blank"
               >
                 <div className="flex flex-col space-y-1">
                   <h4 className="font-normal dark:text-zinc-100">
