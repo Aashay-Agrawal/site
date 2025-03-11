@@ -29,19 +29,19 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Visual Design Gallery',
-    description: 'Showcase of all my visual design work',
-    link: 'null',
+    name: 'Design Gallery',
+    description: 'A collection of all my Design Experiments.',
+    link: 'https://aashay.framer.website/',
     video: 'null',
     id: 'project1',
   },
-  {
-    name: 'Figma Plugin',
-    description: 'Figma Plugin',
-    link: 'null',
-    video: 'null',
-    id: 'project2',
-  },
+  // {
+  //   name: 'Figma Plugin',
+  //   description: 'Figma Plugin',
+  //   link: 'null',
+  //   video: 'null',
+  //   id: 'project2',
+  // },
   // {
   //   name: 'Motion Primitives sdfd',
   //   description: 'UI kit to make beautiful, animated interfaces.',

@@ -138,7 +138,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-          Hey, I'm Aashay. I'm currently crafting beautiful user experiences and user interfaces for generative AI products. I use Figma, Rive and Code to craft beautiful things. I can also code in Next.js, Tailwind, and Framer Motion with v0 to bring my designs to life. In my free time, I love experimenting with TouchDesigner and creative coding to create generative art. I'm also available for remote internships and freelance projects.
+          Hey, I'm Aashay. I'm currently crafting beautiful user experiences and user interfaces for generative AI products. I also code in Next.js, Tailwind, and Framer Motion with v0 to bring my designs to life. In my free time, I love experimenting with TouchDesigner and creative coding to create generative art. I'm also available for remote internships and freelance projects.
           </p>
         </div>
       </motion.section>
